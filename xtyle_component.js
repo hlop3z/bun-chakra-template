@@ -104,7 +104,7 @@ import Props from "./props";
 import "./style.scss";
 
 // Component
-export default function Demo(props: Props) {
+export default function Component(props: Props) {
   return (
     <div {...props} className={objectToClass([props.class, $NAME])}>
       <h3>Hello Demo</h3>
